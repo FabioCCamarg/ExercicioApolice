@@ -8,8 +8,8 @@ public class Apolice {
     private char sexo;
     private double valorAutomovel;
     
-    public Apolice() {
-
+    public Apolice(){
+    
     }
 
     public Apolice(int numero, String nome, int idade, char sexo, double valorAutomovel) {

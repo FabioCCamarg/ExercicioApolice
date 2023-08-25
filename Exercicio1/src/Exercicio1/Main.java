@@ -10,7 +10,7 @@ public class Main {
 
         
         while (opt != 3) {
-            opt = Integer.parseInt(JOptionPane.showInputDialog("Menu:\n" + "1-Criar Apolice\n" + "2-Ver Dados Apolíce\n" + "3-Sair"));
+            opt = Integer.parseInt(JOptionPane.showInputDialog("Menu:\n1-Criar Apolice\n2-Ver Dados Apolíce\n3-Sair"));
             if(opt == 0){
                 System.exit(0);
             }
@@ -29,7 +29,7 @@ public class Main {
                         JOptionPane.showMessageDialog(null, "Erro, sem dados!", "Alerta Vermelho!!", JOptionPane.ERROR_MESSAGE);
                     } else {
                         JOptionPane.showMessageDialog(null, apolice.imprimir());
-                        opt = Integer.parseInt(JOptionPane.showInputDialog("Menu:\n" + "1-Criar Apolice\n" + "2-Ver Dados Apolíce\n" + "3-Sair"));
+                        
                     }
                     break;
                     
